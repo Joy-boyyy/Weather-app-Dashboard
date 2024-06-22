@@ -1,3 +1,13 @@
+<h1>Video preview</h1>
+link: https://drive.google.com/file/d/1nCPIQeA7LiNVlh7DtTqOluUTA9Flcaq4/view?usp=sharing
+
+<h1>Important Notes</h1>
+<ul>
+  <li>before running in your syatem please install all packages/dependencies which i installed to create app</li>
+  <li>In case deployed app is not working i have provided video demo like how this must work</li>
+</ul>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
