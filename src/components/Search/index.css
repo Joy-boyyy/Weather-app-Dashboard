@@ -1,0 +1,24 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.parentSearch{width: 100vw; height: 50px;  display: flex; justify-content: center; align-items: center; background-color: rgb(0, 0, 0,0.3); }
+.inputDiv{width: 400px; height: 30px; border: none; border-radius: 12px; outline: none; padding-left: 10px;}
+.btnSearch{background-color: transparent;  border: none; cursor: pointer;}
+.inputandSearch{display: flex; align-items: center; border:1px solid black; border-radius: 12px;}
+
+.popupCL{background-color: transparent; border: none; cursor: pointer;}
+.popDiv{margin-left: 20px; }
+
+@media(max-width:443px)
+{
+.inputandSearch{flex-direction: column;}
+}
+
+@media(max-width:410px)
+{
+.inputandSearch{flex-direction: column;}
+
+.inputDiv{ width: 100%;}
+
+
+}
+

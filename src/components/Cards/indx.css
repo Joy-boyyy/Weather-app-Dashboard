@@ -1,0 +1,43 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.chidDiv{padding: 30px; width: 100%; background-color: rgb(0, 0, 0,0.3);}
+.cityNameEtc{display: flex; align-items: center;  justify-content: space-between;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0px 20px;
+    border-radius: 40px;
+}
+
+
+.weatherLogo{display: flex; flex-direction: column; margin-right: 40px;}
+.Logo,.weatherDesc{display: flex; align-items: center;}
+.timeDiv{display: flex; align-items: center;}
+
+.fWeights{font-weight: bold; font-size: 26px;}
+.fSize{font-size: 20px; font-weight: 400;}
+.cityInfo{margin-top: 20px; display: flex;  gap: 20px; }
+.broadCastDiv{ border: 1px solid black; border-radius: 15px; overflow: hidden;
+
+}
+
+
+
+.chartDiv{width: 100%; margin-top:20px; background-color: rgb(0, 0, 0,0.3);}
+.chartDiv h1{background-color: rgba(255, 255, 255, 0.7); text-align: center; border-radius: 20px;}
+.allCharts{display: flex; justify-content: center; margin-top: 20px;}
+
+.titleInfo{ text-align: center; margin-top:10px; }
+.titleInfo h1{background-color:rgba(255, 255, 255, 0.4); border-radius: 20px;}
+
+
+@media (max-width:1132px)
+{
+.allCharts{flex-direction: column; align-items: center;}
+
+.cityNameEtc{flex-direction: column;}
+}
+
+@media (max-width:916px){
+    .cityInfo{flex-direction: column; align-items: center;}
+
+}

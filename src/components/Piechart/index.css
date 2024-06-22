@@ -1,0 +1,22 @@
+@media (max-width:1092px)
+{
+    .pieChartDiv{margin:0px auto;
+    
+    display: flex;
+justify-content: center;}
+
+
+}
+
+@media(max-width:612px)
+{
+.pieForBigScreen{display: none;}
+.pieForSmallScreen{display: block;}
+}
+
+@media(min-width:612px)
+{
+.pieForBigScreen{display: block;}
+.pieForSmallScreen{display: none;}
+}
+
